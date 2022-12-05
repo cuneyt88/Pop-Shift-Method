@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Array Sort</title>
+    
+</head>
+<body>
+
+    <!-- Array Sort -->
+    <div>
+        <h1>Sorted Array</h1>
+    </div>
+    
+
+    <!-- FIFO/FILO -->
+
+    <div class="fi">
+        <P>Please select FIFO or LIFO</P>
+        <div>
+            <button id="button1" onclick="SwitchButtons('button1')" >FIFO</button>
+            <P></P>
+        </div>
+        <div>
+            <button id="button2" onclick="SwitchButtons('button2')">LIFO</button>
+            <P></P>
+        </div>
+        
+        <div class="enter">
+            
+        <section class="add-item">
+            <input id="input" type="number" />
+            <input id="btn" type="button" value="ADD" />
+        </section>
+        <section id="lang-list"></section>
+        
+        </div>
+        <button id="btn-shift" onclick="SwitchButtons('btn-shift')">Shift</button>
+        <button id="btn-pop" onclick="SwitchButtons('btn-pop')">Pop</button>
+        <section id="new-list"></section>
+
+    </div>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
